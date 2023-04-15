@@ -1,0 +1,18 @@
+@import "variables";
+@import "fonts";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-weight: 400;
+  font-family: "Graphik LCG";
+  color: $color-title;
+  background-color: $color-main;
+  min-width: 400px;
+  overflow-x: hidden;
+}
